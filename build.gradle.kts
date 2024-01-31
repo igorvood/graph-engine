@@ -32,6 +32,9 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    // https://mvnrepository.com/artifact/io.arrow-kt/arrow-core
+    implementation("io.arrow-kt:arrow-core:1.1.3")
+
 }
 
 tasks.withType<KotlinCompile> {
