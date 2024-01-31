@@ -1,6 +1,6 @@
 package ru.vood.graph.engine.dto
 
-interface CheckNode : INode {
+interface ICheckNode : INode {
 
     fun check(context: IContext): IError?
 }
