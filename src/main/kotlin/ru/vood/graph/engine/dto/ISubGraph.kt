@@ -4,5 +4,4 @@ interface ISubGraph {
 
     val generator: IGeneratorNode
 
-    val dependencyGraphs: Set<ISubGraph>
 }
